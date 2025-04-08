@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Métodos de Arreglos - Tienda Online</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Filtro y Orden de Productos</h1>
+        <div class="panel">
+            <h2>Todos los Productos</h2>
+            <div id="all-products" class="product-grid"></div>
+        </div>
+
+        <div class="panel">
+            <h2>Productos de Ropa (filter)</h2>
+            <div id="ropa-products" class="product-grid"></div>
+        </div>
+
+        <div class="panel">
+            <h2>Productos menores a $100 (filter)</h2>
+            <div id="filtered-products" class="product-grid"></div>
+        </div>
+        
+        <div class="panel">
+            <h2>Productos ordenados A-Z (sort)</h2>
+            <div id="sorted-products" class="product-grid"></div>
+        </div>
+        
+        <div class="panel">
+            <h2>Solo nombres (map)</h2>
+            <div id="names-only" class="names-container"></div>
+        </div>
+        
+        <div class="panel optional">
+            <h2>Extra: </h2>
+            <div id="optional-results"></div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
